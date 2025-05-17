@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+     int num =12321;
+     int numog = num;
+      int ans =0;
+      while(num>0){
+          int rem = num%10;
+          num/=10;
+          ans=ans*10+rem;
+         
+      }
+      System.out.println(ans);
+       System.out.println(numog);
+    if(numog == ans){
+       System.out.println("Palindrome");
+    }else{
+      System.out.println("Not a Palindrome");
+    }
+    }
+    
+}
