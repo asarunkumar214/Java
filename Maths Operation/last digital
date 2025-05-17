@@ -1,0 +1,47 @@
+ int n = 346485;
+   
+     /*print the last number with contine the following nukber one by one ,,,in a linear manner or same line  */   
+    while(n>0){
+    int ld = n%10;
+    System.out.println(ld);
+    n=n/10;
+    }
+    
+    
+    /*revers the input */
+    
+    while(n>0){
+    int ld = n%10;
+    System.out.print(ld);
+    n=n/10;
+    }
+    
+    
+    
+    
+    
+    /*Return the first Digit & counting the number */
+    int count = 0;
+    while(n>0){
+        count = count +1;
+    int ld = n%10;
+    n=n/10;
+    if(n ==0){
+        System.out.println(ld);
+        System.out.println(count);
+    }
+    }
+    
+    /* print frist and last digit */ 
+      int n = 346485;
+    int count = 0;
+     int ld = n%10;
+    while(n>0){
+        count = count +1;
+    int lif = n%10;
+    n=n/10;
+    if(n ==0){
+        System.out.println (ld+lif);
+    
+    }
+    }
