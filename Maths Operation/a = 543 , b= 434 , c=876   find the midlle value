@@ -1,0 +1,16 @@
+public class MiddleElement {
+    public static void main(String[] args) {
+        int a = 246, b = 214, c = 450;
+        int middle;
+
+        if ((a > b && a < c) || (a < b && a > c)) {
+            middle = a;
+        } else if ((b > a && b < c) || (b < a && b > c)) {
+            middle = b;
+        } else {
+            middle = c;
+        }
+
+        System.out.println("Middle value: " + middle);
+    }
+}
