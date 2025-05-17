@@ -1,0 +1,94 @@
+import java.util.*;
+class Main { 
+    public static void main(String[] args) {
+       Scanner in = new Scanner(System.in);
+   
+       
+       
+       
+    }
+}
+
+
+1.   /*signle digit ----       
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        if(n%2 == 0){
+            System.out.println("This is Odd Number"+ n);
+        }else{
+             System.out.println("This is Even Number"+ n);
+        }               */
+        
+        
+2..    /* Array input and output  find odd and even
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+       int [] arr = new int [n];
+       
+       for(int i =0; i<n; i++){
+           arr[i]=in.nextInt();
+       }
+       
+       for(int i =0; i<n; i++){
+          
+       if(arr[i] %2 == 0){
+            System.out.println("This is Odd Number "+ arr[i]);
+        }else{
+             System.out.println("This is Even Number "+ arr[i]);
+        }
+        
+       }
+
+
+  */
+  
+  3...  /*  array load ---
+  int[] arr = new int[6];
+        arr[0] = 67;
+        arr[1] = 45;
+        arr[2] = 32;
+        arr[3] = 2345;
+        arr[4] = 642456;
+        arr[5] = 4356;
+        
+        
+        or 
+        
+        int [5]arr={4,5,6,7,8,9};
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.println("This is Even Number: " + arr[i]);
+            } else {
+                System.out.println("This is Odd Number: " + arr[i]);
+            }
+        }*/
+        
+        
+        
+     4...     /*   array ----
+         int [] arr = {4,3,25,76,89};
+      
+       
+      for(int i =0; i< arr.length; i++){
+          
+      if(arr[i] %2 == 0){
+            System.out.println("This is Odd Number "+ arr[i]);
+        }else{
+             System.out.println("This is Even Number "+ arr[i]);
+        }
+        
+      }   
+      
+      
+      or
+       
+        int[] arr = {4, 3, 25, 76, 89};
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.println("This is Even Number: " + arr[i]);
+            } else {
+                System.out.println("This is Odd Number: " + arr[i]);
+            }
+        }  */
