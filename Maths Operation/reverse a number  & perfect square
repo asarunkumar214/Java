@@ -1,0 +1,32 @@
+link --- https://www.geeksforgeeks.org/problems/reverse-digit0316/1 
+
+
+class Solution {
+    public int reverseDigits(int n) {
+        int value =0;
+        
+        while(n>0){
+            int rem = n%10;
+            value = value *10+rem;
+            n=n/10;
+        }  return value;
+        
+    }
+}
+
+
+//https://www.geeksforgeeks.org/problems/count-squares3649/1
+class Solution {
+    static int countSquares(int n) {
+        // code here
+        int sum = 0;
+    for (int i = 1; i <= Math.sqrt(n); i++) {
+        if (i * i < n) {
+            sum++;
+        } else {
+            break;
+        }
+    }
+    return sum;
+    }
+}
