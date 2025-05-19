@@ -1,0 +1,17 @@
+link  --https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1
+
+code --- class Solution {
+
+    static int search(int arr[], int x) {
+        int d = -1;
+        int a = arr.length;
+        
+        
+             for(int i=0; i<a; i++){
+                 if(x == arr[i]){
+                     return i;
+                 }
+             }
+        return d;
+    }
+}
