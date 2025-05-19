@@ -1,0 +1,31 @@
+link ---- https://www.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/0 
+
+code :  class Solution {
+    // Function to find the maximum element from array arr1 and
+    // the minimum element from array arr2 and return their product.
+
+    
+    public long findMultiplication(int[] arr1, int[] arr2) {
+        // code here
+        long max = arr1[0];
+         long min = arr2[0];
+         
+        for (int i=0; i<arr1.length; i++){
+            if(arr1[i]>max){
+                max = arr1[i];} 
+                }   
+                
+                
+         for (int j=0; j<arr2.length; j++){
+              if(arr2[j]< min){
+                min = arr2[j];
+            }
+            
+         }
+            
+         return max*min;  
+         
+        
+        
+    }
+}
